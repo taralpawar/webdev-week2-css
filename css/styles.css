@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+div {
+  border: 2px solid black;
+}
+.inner {
+  height: 30px;
+  width: 100px;
+  float: right;
+  margin: 0px;
+  background-color: brown;
+  padding-top: 10px;
+  text-align: center;
+}
+
+p {
+  position: relative;
+  top: 50px;
+  margin: 10px;
+}
+
+#i1 {
+  background-color: palevioletred;
+}
+
+#i2 {
+  background-color: brown;
+}
+
+#i3 {
+  background-color: wheat;
+}
+
+@media (min-width: 992px) {
+  .comp {
+    height: 250px;
+    width: 32%;
+    margin: 5px;
+    background-color: grey;
+    float: left;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .tab {
+    height: 250px;
+    width: 48%;
+    margin: 5px;
+    background-color: grey;
+    float: left;
+    overflow: hidden;
+  }
+
+  #d3 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 767px) {
+  .mob {
+    height: 250px;
+    width: 98%;
+    margin: 5px;
+    background-color: grey;
+    float: left;
+    overflow: hidden;
+  }
+}
